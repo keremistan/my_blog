@@ -1,17 +1,35 @@
-# Quartz v5
+# Kerem Dede's Blog
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+A personal blog built with Quartz 5 and hosted on GitHub Pages.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+## Writing & Publishing
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+To create a new post:
+1. Add a Markdown file in `content/posts/` (e.g. `content/posts/my-post.md`).
+2. Add your post frontmatter:
+   ```yaml
+   ---
+   title: My Post Title
+   date: 2026-10-04
+   tags:
+     - tech
+   description: Brief summary
+   ---
+   ```
+3. Commit and push:
+   ```bash
+   git add .
+   git commit -m "Add new post"
+   git push
+   ```
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+GitHub Actions automatically builds and publishes your site to GitHub Pages.
 
-## Sponsors
+For more details, see [WRITING.md](WRITING.md).
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## Local Preview
+
+```bash
+npx quartz build --serve
+```
+View at `http://localhost:8080`.
