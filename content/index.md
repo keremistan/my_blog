@@ -1,8 +1,7 @@
 ---
-title: Welcome
+title: Kerem Dede
 ---
 
-Hi, I'm Kerem. Welcome to my blog — this is where I write about things I'm learning, building, and thinking about.
+I am interested in AI safety. I believe it is one of the most important technologies we have to get right. Or else, we risk losing so much.
 
-- Browse **[[posts/index|all posts]]**
-- Learn more **[[about|about me]]**
+I am currently, as of Oct/Nov 2026, catching up with the state of the field and the literature.
