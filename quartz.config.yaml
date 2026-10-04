@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: Kerem Dede
-  pageTitleSuffix: " · Kerem Dede"
+  # pageTitleSuffix: " · Kerem Dede"
   enableSPA: true
   enablePopovers: false
   analytics: null
@@ -229,6 +229,7 @@ plugins:
     enabled: true
     options:
       links:
+        Linkedin: https://www.linkedin.com/in/keremdede/
         GitHub: https://github.com/keremistan
         RSS: https://keremistan.github.io/my_blog/index.xml
     layout:
